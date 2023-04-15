@@ -262,6 +262,39 @@ a:hover{
     letter-spacing: 2px;
     font-size: 20px;
     font-weight: 800;
+    position: relative;
+}
+.services-title.__ccommand::after{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 50px;
+    color: rgba(0,0,0, .1);
+    content: 'Наша команда';
+}
+.services-title.__services::after{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 50px;
+    color: rgba(0,0,0, .1);
+    content: 'Наши услуги';
+}
+.services-title.__advantages::after{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 50px;
+    color: rgba(0,0,0, .1);
+    content: 'Наши преимущества';
+}
+.services-title.__contacts::after{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 50px;
+    color: rgba(0,0,0, .1);
+    content: 'Обратная связь';
 }
 .services-sub-title{
     margin-top: 15px;
@@ -341,6 +374,29 @@ a:hover{
 /**/
 .we-inner{
     padding: 50px 10px;
+}
+.our-card-photo{
+    max-width: 300px;
+    border-radius: 10px;
+}
+.our-pictures-container{
+    padding: 50px 0;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.our-card-name{
+    font-size: 25px;
+    color: #232323;
+    font-weight: 700;
+}
+
+.our-card-job{
+    color: rgba(0,0,0, .65);
 }
 /**/
 .contacts{
