@@ -378,6 +378,7 @@ a:hover{
 .our-card-photo{
     max-width: 300px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .our-pictures-container{
     padding: 50px 0;

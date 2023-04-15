@@ -99,6 +99,10 @@
     .contact-fields{
         grid-template-columns: auto;
     }
+    .services-title.__advantages::after{
+        font-size: 40px;
+        content: 'Преимущества';
+    }
 }
 @media only screen and (max-width : 360px)  {
     li.top-header-contact-item{
@@ -107,6 +111,10 @@
     .main-btn{
         display: block;
         margin-bottom: 5px;
+    }
+    .services-title.__advantages::after{
+        font-size: 30px;
+        content: 'Преимущества';
     }
 
 }
